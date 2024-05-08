@@ -117,9 +117,8 @@ function SingleProductPage({ match }) {
   );
 }
 
-
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<AllProductsPage
+        <Route path="/" element={<AllProductsPage></AllProductsPage>}
